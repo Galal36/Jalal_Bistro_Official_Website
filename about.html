@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Galal's Bistro</title>
+    <title>About Us - Galal's Bistro</title>
     <link rel="stylesheet" href="cssC/bootstrap.min.css">
     <link rel="stylesheet" href="cssC/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar " >
+    <nav id="header-nav" class="navbar">
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
@@ -20,7 +21,7 @@
           </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>Galal's Bistro, restaurant</h1></a>
+            <a href="index.html"><h1>Galal's Bistro</h1></a>
             <p>
               <img src="images/star-k-logo.png" alt="Kosher certification">
               <span>Kosher Certified</span>
@@ -41,7 +42,7 @@
               <a href="BISTRONEW.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
-            <li>
+            <li class="active">
               <a href="about.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
@@ -58,34 +59,88 @@
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
-<!------------------------------------------------------------------->
+
   <div id="call-btn" class="visible-xs">
-    <a class="btn" href="201128222152">
+    <a class="btn" href="tel:201128222152">
     <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
+    201128222152
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-  <div id="main-content" ><!--class="container"-->
-   <div style="margin-left:2px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color:antiquewhite;
-   font-size: 400% larger; font-weight: bold;font-size: 25px;">
-    This is Galal Ali's Restaurant, Welcome to our bistro! Our vision is not only pioneer since our foundation has started, but also we are creative in what we are doing.
-    We have Kosher licence in restaurants and services so we are qualified to make our customers enjoy their time.
 
+  <div id="main-content" class="container">
+    <!-- Hero Section -->
+    <div class="about-hero text-center">
+      <h2 class="hero-title">Our Story</h2>
+      <p class="hero-subtitle">Serving authentic flavors with passion since 2010</p>
+    </div>
 
-      
+    <!-- About Content -->
+    <div class="row about-content">
+      <div class="col-md-6">
+        <div class="about-section">
+          <h3><span class="glyphicon glyphicon-cutlery"></span> Our Vision</h3>
+          <p>At Galal's Bistro, we don't just serve food - we create experiences. Founded by Galal Ali, our restaurant has been a pioneer in bringing authentic Egyptian cuisine with a modern twist to Assiut. We believe in creativity, quality, and the power of a shared meal to bring people together.</p>
         </div>
 
+        <div class="about-section">
+          <h3><span class="glyphicon glyphicon-star"></span> Kosher Certified</h3>
+          <p>We take pride in our Kosher certification, ensuring that all our dishes meet the highest standards of quality and preparation. This certification reflects our commitment to excellence in every aspect of our service.</p>
+        </div>
+      </div>
 
-    <div id="home-tiles" class="row">
-    
-      
-      
+      <div class="col-md-6">
+        <div class="about-section">
+          <h3><span class="glyphicon glyphicon-heart"></span> Our Philosophy</h3>
+          <p>Every dish at Galal's Bistro tells a story - of tradition, of innovation, and of passion. We source the freshest local ingredients and combine them with time-honored recipes to create flavors that delight both the palate and the soul.</p>
+        </div>
 
-        </a>
-      </div> <!-- end of home tile-->
-    </div><!-- end of the whole-->
+        <div class="about-section">
+          <h3><span class="glyphicon glyphicon-user"></span> Meet Our Team</h3>
+          <p>Our dedicated team of chefs and staff are the heart of our restaurant. With years of experience and a genuine love for hospitality, they ensure every visit to Galal's Bistro is memorable.</p>
+        </div>
+      </div>
+    </div>
 
+    <!-- Testimonials Carousel -->
+    <div class="testimonials-section">
+      <h3 class="text-center">What Our Guests Say</h3>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <p>"The best Egyptian restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+            <p class="author">- Ali</p>
+          </div>
+          <div class="item">
+            <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+            <p class="author">- Sara</p>
+          </div>
+          <div class="item">
+            <p>"The flavors take me back to my grandmother's kitchen. Authentic and delicious!"</p>
+            <p class="author">- Mohammed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery Preview -->
+    <div class="gallery-preview">
+      <h3 class="text-center">A Taste of Galal's Bistro</h3>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="gallery-item" style="background-image: url('images/dish1.jpg');"></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="gallery-item" style="background-image: url('images/dish2.jpg');"></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="gallery-item" style="background-image: url('images/dish3.jpg');"></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="gallery-item" style="background-image: url('images/dish4.jpg');"></div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="panel-footer">
@@ -106,11 +161,11 @@
           <hr class="visible-xs">
         </section>
         <section id="testimonials" class="col-sm-4">
-          <p>"Ali: The best Egyptian restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
-          <p>" Sara: Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+          <p>"The flavors are incredible! Every bite is a journey through Egyptian cuisine."</p>
+          <p>"Perfect place for family gatherings. The atmosphere is warm and inviting."</p>
         </section>
       </div>
-      <div class="text-center">&copy; Copyright Galal's Bistro2022</div>
+      <div class="text-center">&copy; Copyright Galal's Bistro 2022</div>
     </div>
   </footer>
 
